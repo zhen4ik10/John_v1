@@ -85,7 +85,7 @@ button {
     margin: 0 0 0 33px;
 }
 
-.menu__item a.active {
+.menu__item .menu__link:is(:link, :active, :visited).active {
     background-color: #FF6464;
     padding: 10px 20px;
 }

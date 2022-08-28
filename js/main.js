@@ -20,9 +20,6 @@ const menuLinks = document.querySelectorAll('ul li a').forEach(link => {
     if (link.href.includes(`${activePage}`)) {
         link.classList.add('active');
     };
-    if (link.href.includes(`${activePage}`)) {
-        link.classList.remove('active');
-    };
 });
 
 // const menuList = document.getElementsByClassName("menu__list");
