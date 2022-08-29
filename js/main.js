@@ -18,7 +18,7 @@ if (iconMenu) {
 const activePage = window.location.pathname;
 const menuLinks = document.querySelectorAll('ul li a').forEach(link => {
     if (link.href.includes(`${activePage}`)) {
-        link.classList.add('active');
+        link.classList.toggle('active');
     };
 });
 
