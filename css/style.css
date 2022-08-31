@@ -85,7 +85,7 @@ button {
     margin: 0 0 0 33px;
 }
 
-li .menu__link {
+.menu__link {
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
@@ -94,6 +94,9 @@ li .menu__link {
     transition: all .3s ease;
 }
 
+.menu__link.active {
+    color: #000;
+}
 
 .menu__link:is( :active, :visited).active,
 .menu__link:hover {
