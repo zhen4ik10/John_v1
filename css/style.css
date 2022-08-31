@@ -95,7 +95,7 @@ button {
 }
 
 
-.menu__link:is(:link, :active, :visited).active,
+.menu__link:is( :active, :visited).active,
 .menu__link:hover {
     color: #FF6464;
 }
