@@ -94,11 +94,11 @@ button {
     transition: all .3s ease;
 }
 
-.menu__link:hover {
+.menu__link:is(:link, :active, :visited).active {
     color: #FF6464;
 }
 
-.menu__link:is(:link, :active, :visited).active {
+.menu__link:hover {
     color: #FF6464;
 }
 
