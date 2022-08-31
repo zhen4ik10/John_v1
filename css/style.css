@@ -85,7 +85,7 @@ button {
     margin: 0 0 0 33px;
 }
 
-.menu__link {
+li .menu__link {
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
