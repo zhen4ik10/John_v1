@@ -22,6 +22,8 @@ const menuLinks = document.querySelectorAll('.menu__link').forEach(link => {
     };
 });
 
+
+
 // const menuList = document.getElementsByClassName("menu__list");
 // const menuItem = document.getElementsByClassName("menu__item")
 // for (var i = 0; i < menuItem.length; i++) {
