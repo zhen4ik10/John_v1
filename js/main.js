@@ -15,12 +15,21 @@ if (iconMenu) {
     }
 };
 
-const activePage = window.location.pathname;
-const menuLinks = document.querySelectorAll('.menu__link').forEach(link => {
-    if (link.href.includes(`${activePage}`)) {
-        link.classList.toggle('active');
+const currentLocation = location.href;
+const menuItem = document.querySelectorAll('ul li a');
+const menuLength = menuItem.length
+for (let i = 0; i < menuLength; i++) {
+    if (menuItem[i].href === currentLocation) {
+        menuItem[i].classList.toggle("active")
     };
-});
+};
+
+// const activePage = window.location.pathname;
+// const menuLinks = document.querySelectorAll('.menu__link').forEach(link => {
+//     if (link.href.includes(`${activePage}`)) {
+//         link.classList.toggle('active');
+//     };
+// });
 
 
 
