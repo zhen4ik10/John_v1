@@ -18,8 +18,8 @@ if (iconMenu) {
 const activePage = window.location.pathname;
 const menuLinks = document.querySelectorAll('.menu__link').forEach(link => {
     if (link.href.includes(`${activePage}`)) {
-        link.classList.toggle('active');
-    };
+        link.classList.toggleClass('active');
+    }
 });
 
 
