@@ -366,7 +366,8 @@ button {
 }
 
 .m--bottom {
-    margin-bottom: 27px;
+    margin: 0 0 27px 0;
+    /* margin-bottom: 27px; */
 }
 
 /* /Page Work-detail */
